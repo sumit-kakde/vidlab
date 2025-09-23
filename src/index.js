@@ -2,10 +2,11 @@
 import dotenv from "dotenv"
 import connectDB from "./db/index.js";
 import {app} from './app.js'
-dotenv.config({
-    path: './.env'
-})
+//dotenv.config({
+    //path: './.env'
+//})
 
+dotenv.config({ path: "C:/Users/sumit/Desktop/mytube/.env" });
 //console.log("MONGODB_URI from env:", process.env.MONGODB_URI);
 
 connectDB()
